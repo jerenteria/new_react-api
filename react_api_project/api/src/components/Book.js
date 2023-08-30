@@ -4,9 +4,11 @@ import React from 'react';
 const Book = (props) => {
     return (
         <section className="bookList">
-            <li>{props.key}</li>
-            <li>{props.name}</li>
-            <li>{props.date}</li>
+            <li>
+            <h2>{props.key}</h2>
+            <h2>{props.name}</h2>
+            <h2>{props.date}</h2>
+            </li>
         </section>
     )
 };
