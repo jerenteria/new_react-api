@@ -1,20 +1,26 @@
 import './App.css';
 import React, { useState } from 'react';
-import BookList from './components/BookList';
-import Book from './components/Book';
+import UserList from './components/UserList';
 
 function App() {
-  const [books, setBooks] = useState([]);
+  const [users, setUsers] = useState([]);
 
-  fetch('https://billboard-api2.p.rapidapi.com/hot-100')
-    .then(response => response.json())
-    .then(data => console.log(data));
-
+  fetch('https://jsonplaceholder.typicode.com/users/')
+    // .then((response => {
+    //   return response.json();
+    // })
+    // .then((data => {
+    //   const listOfUsers = data.results.map(userData => {
+    //     return {
+    //       id: userData.name
+    //     };
+    //   })
+    //   // setUsers(data));
+    // }
 
   return (
     <section>
-      <h1>Welcome!</h1>
-      <BookList books={books} />
+      <UserList users={users} />
     </section>
   );
 }
