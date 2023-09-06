@@ -5,18 +5,23 @@ import UserList from './components/UserList';
 function App() {
   const [users, setUsers] = useState([]);
 
-  fetch('https://jsonplaceholder.typicode.com/users/')
-  .then(response => {
-    return response.json();
-  }).then(data => { 
-    setUsers(data);
-  });
+  async function fetchData() {
+    await fetch('https://jsonplaceholder.typicode.com/users')
+    .then(response => {
+      return response.json();
+    }).then(data => { 
+      setUsers(data);
+    });
+  };
 
 
   return (
-    <section>
-      <UserList users={users} />
-    </section>
+    <div class="container"> 
+      <section class="rendered-data">
+        <UserList users={users} />
+        <button id="button" onClick={fetchData}>Fetch Data!</button>
+      </section>
+    </div>
   );
 }
 
