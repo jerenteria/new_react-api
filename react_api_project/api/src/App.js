@@ -15,9 +15,11 @@ function App() {
       });
   };
 
-
+  // if we havent searched for anything yet show all the users
   const filterNames = query.length === 0 ? users :
+  // if not filter the results by the input(get event.target.value in line 31 during onChange!)
   users.filter(users => users.name.toLowerCase().includes(query.toLowerCase()));
+
 
   return (
     <div class="container">
