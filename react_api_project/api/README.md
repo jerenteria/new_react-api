@@ -5,7 +5,9 @@ After looking through various examples I finally found one that made the most se
 
 ## Sources 
 Eloquent JavaScript by Marjin Haverbeke
-[Udemy Course](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
-Blog on [dev.to](https://dev.to/deboragaleano/how-to-add-a-search-bar-in-react-noc)
+<ul>
+<li>[Udemy Course](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)</li>
+</li>Blog on [dev.to](https://dev.to/deboragaleano/how-to-add-a-search-bar-in-react-noc)</li>
+</ul>
 
 
