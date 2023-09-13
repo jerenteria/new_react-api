@@ -6,8 +6,8 @@ After looking through various examples I finally found one that made the most se
 ## Sources 
 <ul>
 <li>Eloquent JavaScript by Marjin Haverbeke</li>
-<li>[Udemy Course](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)</li>
-<li>Blog on [dev.to](https://dev.to/deboragaleano/how-to-add-a-search-bar-in-react-noc)</li>
+<li>Udemy Course: https://www.udemy.com/course/react-the-complete-guide-incl-redux/</li>
+<li>Blog on dev.to: https://dev.to/deboragaleano/how-to-add-a-search-bar-in-react-noc</li>
 </ul>
 
 
